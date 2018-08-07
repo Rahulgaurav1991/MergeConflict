@@ -26,7 +26,7 @@ public class Hello {
 				System.out.println(name.getAttribute("innerHtml"));
 				
 			}
-			driver.close();
+			driver.quit();
 		}
 
 	}
